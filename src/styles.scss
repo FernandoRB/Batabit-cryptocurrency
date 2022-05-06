@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+/* change the colors */
+@import "bootstrap";
+
+:root{
+/*
+  $primary: #f7931a;
+  $secondary:#fff;
+  $danger:#1F7680 ;
+  $body-bg: #061D35;
+  $info:#f29530;*/
+  --bitcoin-orange: #f7931a;
+  --just-white: #fff;
+  --green:#1F7680;
+  --black:#061D35;
+
+  
+  --orange:#f29530;
+  --blue:#061D35;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+  
+
+
+
+
+

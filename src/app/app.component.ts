@@ -1,10 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { Contact } from './models/contact';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Batabit-cryptocurrency';
+  public usuario : Contact;
+  
+  constructor(){
+    this.usuario = new Contact("", "", "");
+  }
+ 
+  ngOnInit(){}
+  OnSubmit(form: any){
+    form.reset("formContacto"); 
+    console.log("evento lanzado");
+    console.log(this.usuario);
+
+  }
 }
+

@@ -1,0 +1,163 @@
+/*header*/
+.jumbotron{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  min-width: 320px;
+  height: 370px;
+  text-align: center;
+  background: linear-gradient(208.83deg,
+  var(--black) 16.69%,
+  var(--green)
+  );
+}
+/*header image*/
+header img {
+  width: 151px;
+  height: 24px;
+  margin-top:20px;
+  align-self: center;    
+}
+#header--title-container {
+  width: 90%;
+  min-width: 280px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 50px;
+  text-align: center;
+  align-self: center;
+}
+#header--title-container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+  justify-content: space-evenly;
+  color: var(--orange);
+}
+#header--title-container p {
+  min-width: 280px;
+  max-width: 900px;
+  min-height: 30px;
+  max-height: 30px;
+  margin-top: 35px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  justify-content:space-evenly;
+  color: var(--orange);
+
+}  
+
+/*header button */
+
+#header--title-container #header--button{
+  display: flex;
+  position: absolute;
+  left: calc(50% - 118px);
+  top: 270px;
+  display: block;
+  margin-left: 5px;
+  margin-top: 10px;
+  padding: 15px;
+  width: 220px;
+  height: 60px;
+  background: var(--green) ;
+/* Shadow formulary  */
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border-radius: 8px;
+  border-color: var(--orange);
+  font-size: 2.0rem;
+  font-weight: bold;
+  text-decoration: none;
+  color:var(--just-white);
+}
+#header--title-container #header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 2.8rem;  
+                 
+}
+#header--title-container #header--button:hover{
+  border-color: var(--just-white);
+  color: var(--orange);
+}
+#header--title-container #header--button:active{
+  font-size: 2.2rem;
+  color:var(--orange);
+  border:10px;
+}
+  
+/*Formulary*/
+#container-form{
+  height: 250px;
+  background-color: transparent;
+  
+}
+
+.modal-content{
+  height: 350px;
+  width:auto;
+  margin-top: 20%;
+  background: linear-gradient(208.83deg,
+  var(--black) 16.69%,
+  var(--green)
+  );
+}
+
+#exampleModalLabel{
+  font-size: 1.7rem;
+  color: var(--just-white);
+}
+
+.form-title{
+  font-size: 1.7rem;
+  color: var(--just-white);
+}
+
+.form-content{
+  width: 250px;
+  height: 25px;
+  margin-bottom: 17px;
+}
+
+.form-message{
+  width: 250px;
+  height: 70px;
+  margin-bottom: 17px;
+}
+
+.form-send{
+  position: relative;
+  bottom: 10px;
+  height: 25px;
+  width: 50px;
+  font-size:1.7rem ;
+  background-color: var(--just-white);
+  color: var(--green);
+  border:solid 1px var(--orange);
+  border-radius: 5px;
+}
+
+#send:active{
+  background-color: var(--orange);
+}
+#send:visited{
+  background-color: var(--blue);
+}
+
+
+
+.close{
+  font-size:2.2rem;
+  color: var(--just-white);
+  border: solid 1px white;  
+}
+
+
